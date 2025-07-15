@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Encabezado */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header p {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Contenido principal */
+main {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Secciones de información */
+.informacion-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.caracteristicas, .utilidades {
+    margin-left: 20px;
+}
+
+.caracteristicas li, .utilidades li {
+    margin-bottom: 10px;
+}
+
+.utilidades {
+    list-style-type: square;
+}
+
+/* Cita bibliográfica */
+.cita {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-left: 4px solid #2c3e50;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 15px;
+    }
+    
+    .informacion-section {
+        padding: 15px;
+    }
+}
